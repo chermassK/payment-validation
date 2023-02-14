@@ -1,0 +1,70 @@
+.absolute-card {
+        height: 100px;
+        position: absolute;
+        top: 200px;
+      }
+      .card-header {
+        height: 100%;
+        background-color: white;
+        border-radius: 10px 10px 0px 0px;
+        border-top: 1px solid grey;
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
+      }
+      .card-footer {
+        height: 100%;
+        width: 350px;
+        background-color: DodgerBlue;
+        border-radius: 0px 0px 10px 10px;
+        border-bottom: 1px solid grey;
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
+      }
+      .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        flex-direction: column;
+      }
+      .content-container-header {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bolder;
+      }
+      .content-container-footer {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bolder;
+      }
+
+      .flex-container {
+        padding: 20px 0 0 0; 
+        height: 100vh
+        div {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+      }
+      }
+      
+
+      .form-container{
+          background-color:aliceblue;
+          height: 300px;
+          width: 400px;
+          border: 1px solid grey;
+
+          form {
+            margin: 120px 20px 20px 50px;
+          }
+      }
+
+      button {
+        margin-left: 20px;
+      }
+      
